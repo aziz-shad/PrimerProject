@@ -1,5 +1,8 @@
 :root {
     --primary-color:#c8caca;
+    --secondry-color:white;
+
+    
 }
 
 * {
@@ -44,7 +47,7 @@ nav li a {
 .hero {
     background-color: gray;
     display: grid;
-    grid-template-columns: 2fr 1fr ;
+    grid-template-columns: 2fr 1.5fr ;
     gap: 2rem;
 }
 
@@ -56,11 +59,11 @@ nav li a {
     
 }
 
-.card p{
+.card p {
     margin-bottom: 5rem;
 }
 
-.card a{
+.card a {
     margin-top: 5rem;
     text-decoration: none;
 }
@@ -91,6 +94,13 @@ nav li a {
 
 /* FEATURS */
 
+.features {
+    background-color: #C4C4C4;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
 .icon {
     width: 80px;
     height: 80px;
@@ -99,16 +109,30 @@ nav li a {
     border-radius: 50%;
 }
 
-.awesome-apps {
+/* .awesome-apps {
     background-color: #C4C4C4;
     padding-bottom: 85px;
     text-align: center;
-
-}
+} */
 
 .awesome-apps .title {
     padding-top: 65px;
     padding-bottom: 85px;
+}
+
+.tiles {
+      display: grid;
+      /* grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); */
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      gap: 40px;
+      /* max-width: 900px; */
+      /* margin: 0 auto;
+      padding: 1rem ; */
+}
+
+.tiles .card{
+    background-color: lightgray;
 }
 
 .why-you-should-choose-our-apps h1 {
@@ -119,17 +143,6 @@ nav li a {
 .why-you-should-choose-our-apps {
     padding-bottom: 85px;
     text-align: center;
-}
-
-
-.tiles {
-      display: grid;
-      gap: 40px;
-      justify-content: center;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      max-width: 900px;
-      margin: 0 auto;
-    
 }
 
 
