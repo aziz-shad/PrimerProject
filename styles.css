@@ -132,6 +132,16 @@ nav li a {
     background-color: lightgray;
 }
 
+.services{
+  padding: 1rem;
+}
+
+.small-card{
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgray;
+}
 .why-you-should-choose-our-apps h1 {
     padding-top: 65px;
     padding-bottom: 85px;
