@@ -7,6 +7,7 @@
  padding: 0;
  box-sizing: border-box;   
 }
+
 .icon {
     width: 80px;
     height: 80px;
@@ -15,24 +16,29 @@
     border-radius: 50%;
 }
 
-.awesome-apps {
+.features {
     background-color: #C4C4C4;
     padding-bottom: 85px;
     text-align: center;
 
 }
 
-.awesome-apps .title {
+.features .title {
     padding-top: 65px;
     padding-bottom: 85px;
 }
 
-.why-you-should-choose-our-apps h1 {
+.features .small-card {
+background-color: none;
+
+}
+
+.services h1 {
     padding-top: 65px;
     padding-bottom: 85px;
 }
 
-.why-you-should-choose-our-apps {
+.services {
     padding-bottom: 85px;
     text-align: center;
 }
@@ -40,9 +46,9 @@
 
 .tiles {
       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 40px;
       justify-content: center;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       max-width: 900px;
       margin: 0 auto;
     
