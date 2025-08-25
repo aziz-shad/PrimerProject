@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Primer Project</title>
 </head>
-<body>
-    <!-- tile -->
-     
-     
+<body>  
     <!-- Navigation -->
 <nav>
     <ul>
@@ -17,8 +14,8 @@
     </ul>
     <ul>
         <li><a href="" class="btn">Home</a></li>
-        <li><a href="" class="btn">Features</a></li>
-        <li><a href="" class="btn">Prices</a></li>
+        <li><a href="#features" class="btn">Features</a></li>
+        <li><a href="#prices" class="btn">Prices</a></li>
         <li><a href="" class="btn">Try for free</a></li>
     </ul>
 </nav>
@@ -52,26 +49,27 @@
     </section>
     
     <!-- Harshi -->
-    <section class="features">
+    <!-- <section id="features" class="awesome-apps"> -->
+    <section id="features" class="features">
         <div class="title">
              <h1>Awesome apps features</h1>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet mass.</p>
         </div>
        
         <div class="tiles">
-         <div class="small-card">
+         <div class="card">
          <div class="icon"></div>
          <h3>Fast performance</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet</p>
          </div>
          
-         <div class="small-card">
+         <div class="card">
          <div class="icon"></div>
          <h3>Fast performance</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet</p>
          </div>
          
-         <div class="small-card">
+         <div class="card">
          <div class="icon"></div>
          <h3>Fast performance</h3>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet</p>
@@ -126,14 +124,52 @@
     </section>
 
     <!-- Anila -->
-     <section>
-        
-    </section>
-</main>
+<section id="prices" class="packages">
+    <h2>Get awesome features, without extra charges</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet mass.</p>
 
-<footer>
+    <div class="pricing-cards">
+        <div class="card">
+            <h3>$0</h3>
+            <p>Basic plan</p>
+        </div>
+        <div class="card">
+            <h3>$40</h3>
+            <p>Standard plan</p>
+        </div>
+        <div class="card">
+            <h3>$99</h3>
+            <p>Premium plan</p>
+        </div>
+    </div>
+</section>
 
+<footer class="footer">
+    <div class="product-section">
+        <h3>Your product</h3>
+
+        <div class="product-links">
+            <a href="home.html">Home</a>
+            <a href="#features">Features</a>
+            <a href="pricing.html">Pricing</a>
+        </div>
+        <div class="product-buttons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="images/youtube.png" alt="YouTube">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
 </footer>
+</main>
     
 </body>
 </html>
