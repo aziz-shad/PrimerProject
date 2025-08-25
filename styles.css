@@ -8,46 +8,6 @@
  box-sizing: border-box;   
 }
 
-.icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 15px;
-    background: #bbb;
-    border-radius: 50%;
-}
-
-.awesome-apps {
-    background-color: #C4C4C4;
-    padding-bottom: 85px;
-    text-align: center;
-
-}
-
-.awesome-apps .title {
-    padding-top: 65px;
-    padding-bottom: 85px;
-}
-
-.why-you-should-choose-our-apps h1 {
-    padding-top: 65px;
-    padding-bottom: 85px;
-}
-
-.why-you-should-choose-our-apps {
-    padding-bottom: 85px;
-    text-align: center;
-}
-
-
-.tiles {
-      display: grid;
-      gap: 40px;
-      justify-content: center;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      max-width: 900px;
-      margin: 0 auto;
-    
-}
 
 /* COMPONENTS */
 
@@ -128,6 +88,50 @@ nav li a {
     margin: 1rem 2rem;
 
 }
+
+/* FEATURS */
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    background: #bbb;
+    border-radius: 50%;
+}
+
+.awesome-apps {
+    background-color: #C4C4C4;
+    padding-bottom: 85px;
+    text-align: center;
+
+}
+
+.awesome-apps .title {
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+
+.why-you-should-choose-our-apps h1 {
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+
+.why-you-should-choose-our-apps {
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+
+.tiles {
+      display: grid;
+      gap: 40px;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      max-width: 900px;
+      margin: 0 auto;
+    
+}
+
 
 .packages {
     text-align: center;
