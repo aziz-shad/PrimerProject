@@ -1,16 +1,12 @@
+:root {
+    --primary-color:#c8caca;
+}
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;   
 }
-
-body {
-    font-family: system-ui, Roboto;
-    background-color: #EDEDED;
-    
-}
-
-
 .icon {
     width: 80px;
     height: 80px;
@@ -18,11 +14,6 @@ body {
     background: #bbb;
     border-radius: 50%;
 }
-
-.card {
-    text-align: center;
-}
-
 
 .awesome-apps {
     background-color: #C4C4C4;
@@ -54,4 +45,85 @@ body {
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       max-width: 900px;
       margin: 0 auto;
+    
+}
+
+/* COMPONENTS */
+
+.btn {
+    padding: 5px 14px;
+    border: none;
+    margin: 8px;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: rgb(161, 161, 161);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* HERO SECTION*/
+.hero {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    gap: 2rem;
+}
+
+.card {
+    margin: 5rem;
+    padding: 1rem 2rem;
+    background-color: lightgray;
+    border-radius: 1rem;
+    
+}
+
+.card p{
+    margin-bottom: 5rem;
+}
+
+.card a{
+    margin-top: 5rem;
+    text-decoration: none;
+}
+
+.trusties {
+    background-color: whitesmoke;
+}
+.trusties div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: large;
+    padding: 1rem 0rem;
+}
+.trustedby {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trustedby div {
+    
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--primary-color);
+    margin: 1rem 2rem;
+
 }
