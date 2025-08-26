@@ -329,7 +329,10 @@ nav li a {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.footer-brand img {
+  height: 40px;
+  width: auto;
+}
 
 .footer-brand h2 {
   font-size: 1.8rem;
