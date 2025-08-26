@@ -10,7 +10,10 @@
 }
 
 /* COMPONENTS */
-
+h2 {
+  font-size: 2rem;   
+  font-weight: bold; 
+}
 .btn {
     padding: 5px 15px;
     border: none;
