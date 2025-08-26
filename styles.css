@@ -12,18 +12,24 @@
 /* COMPONENTS */
 
 .btn {
-    padding: 5px 14px;
+    padding: 5px 15px;
     border: none;
     margin: 8px;
     font-size: 1.25rem;
-    border-radius: 1rem;
-    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    /* background-color: var(--primary-color); */
+    background-color: white;
+    color: #191919;
+    background: #fff;
+    border: 1px solid #b3a9a9;
 }
-
+.btn:hover {
+    background: #d6d1d1;
+}
 /* NAVIGATION */
 
 nav {
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,18 +48,20 @@ nav li a {
 
 /* HERO SECTION*/
 .hero {
-    background-color: gray;
+    background-image: url(./images/hero.png);
     display: grid;
-    grid-template-columns: 2fr 1.5fr ;
+    grid-template-columns: 4fr 3fr ;
     gap: 2rem;
+    opacity: 0.7;
 }
 
 .card {
     margin: 5rem;
     padding: 1rem 2rem;
-    background-color: lightgray;
+    background-color: #FBFAF0;
     border-radius: 1rem;
-    
+    opacity: 0.8;
+    color: black;
 }
 
 .card p {
@@ -84,7 +92,6 @@ nav li a {
     
     width: 5rem;
     height: 5rem;
-    background-color: var(--primary-color);
     margin: 1rem 2rem;
 
 }
