@@ -46,13 +46,18 @@ nav li a {
     text-decoration: none;
 }
 
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
 /* HERO SECTION*/
 .hero {
     background-image: url(./images/hero.png);
     display: grid;
     grid-template-columns: 4fr 3fr ;
     gap: 2rem;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 .card {
